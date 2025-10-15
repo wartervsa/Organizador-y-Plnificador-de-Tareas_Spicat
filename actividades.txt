@@ -1,0 +1,4 @@
+28/10/2025|Viaje de Descanso|29/10/2025|false
+16/10/2025|Examenes Simulacro|16/11/2025|false
+17/10/2025|Feriado: Fecha Nacional|18/10/2025|false
+25/10/2025|Examen Sorpresa|26/10/2025|false

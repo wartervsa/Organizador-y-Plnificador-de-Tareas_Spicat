@@ -1,0 +1,93 @@
+[
+  {
+    "correo": "JosePerez@gmail.Dueño",
+    "contrasena": "12345",
+    "rol": "Dueño"
+  },
+  {
+    "correo": "Secretaria_Josefina_Mamani@gmail.secret",
+    "contrasena": "4321",
+    "rol": "secret"
+  },
+  {
+    "correo": "docente_biologia@gmail.miembro",
+    "contrasena": "48275910",
+    "rol": "miembro"
+  },
+  {
+    "correo": "docente_quimica@gmail.miembro",
+    "contrasena": "73024815",
+    "rol": "miembro"
+  },
+  {
+    "correo": "docente_anatomia@gmail.miembro",
+    "contrasena": "61903427",
+    "rol": "miembro"
+  },
+  {
+    "correo": "docente_lenguaje@gmail.miembro",
+    "contrasena": "50418263",
+    "rol": "miembro"
+  },
+  {
+    "correo": "docente_matematicas@gmail.miembro",
+    "contrasena": "92751046",
+    "rol": "miembro"
+  },
+  {
+    "correo": "docente_fisica@gmail.miembro",
+    "contrasena": " 18360725",
+    "rol": "miembro"
+  },
+  {
+    "correo": "docente_razonamiento@gmail.miembro",
+    "contrasena": "35649280",
+    "rol": "miembro"
+  },
+  {
+    "correo": "docente_Historia@gmail.miembro",
+    "contrasena": "84207519",
+    "rol": "miembro"
+  },
+  {
+    "correo": "docente_psicologia@gmail.miembro",
+    "contrasena": "71039458",
+    "rol": "miembro"
+  },
+  {
+    "correo": "Marketing_Camila_morales@gmail.miembro",
+    "contrasena": "92837461",
+    "rol": "miembro"
+  },
+  {
+    "correo": "Marketing_Andres_silva@gmail.miembro",
+    "contrasena": "63482059",
+    "rol": "miembro"
+  },
+  {
+    "correo": "Marketing_Valeria_castro@gmail.miembro",
+    "contrasena": "75291038",
+    "rol": "miembro"
+  },
+  {
+    "correo": "Auxiliar_Daniel_rios@gmail.miembro",
+    "contrasena": "58126394",
+    "rol": "miembro"
+  },
+  {
+    "correo": "Auxiliar_Paola_fernandez@gmail.miembro",
+    "contrasena": "69047213",
+    "rol": "miembro"
+  },
+  {
+    "correo": "CoordinadorAcademico_Marcelo_lopez@gmail.miembro",
+    "contrasena": "84372059",
+    "rol": "miembro"
+  },
+  {
+    "correo": "SoporteTécnico_Natalia_reyes@gmail.miembro",
+    "contrasena": "71593084",
+    "rol": "miembro"
+  }
+]
+

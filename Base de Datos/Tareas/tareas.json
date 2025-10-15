@@ -1,0 +1,82 @@
+[
+  {
+    "tarea": "Biologia Molecular",
+    "responsable": "Docentes ",
+    "nombre": "Biologia",
+    "estado": "En Proceso",
+    "fecha": "08/10/2025",
+    "prioridad": "Alta "
+  },
+  {
+    "tarea": "Mantenimiento de Computadoras",
+    "responsable": "Soporte Tecnico",
+    "nombre": "Natalia_Reyes",
+    "estado": "En Proceso",
+    "fecha": "10/10/2025",
+    "prioridad": "Alta "
+  },
+  {
+    "tarea": "Subir Promociones",
+    "responsable": "Marketing",
+    "nombre": "Paola_Fernandez",
+    "estado": "En Proceso",
+    "fecha": "10/10/2025",
+    "prioridad": "Alta "
+  },
+  {
+    "tarea": "Ayudar con Ejercicios Extra",
+    "responsable": "Auxiliar",
+    "nombre": "Paola_Fernandez",
+    "estado": "En Proceso",
+    "fecha": "10/10/2025",
+    "prioridad": "Alta "
+  },
+  {
+    "tarea": "Imprimir Examenes",
+    "responsable": "Secretaria",
+    "nombre": "Josefina_Mamani",
+    "estado": "En Proceso",
+    "fecha": "10/10/2025",
+    "prioridad": "Alta "
+  },
+  {
+    "tarea": "Programar un Examen Sorpresa",
+    "responsable": "Coordinador Academico",
+    "nombre": "Marcelo_lopez",
+    "estado": "En Proceso",
+    "fecha": "10/10/2025",
+    "prioridad": "Alta "
+  },
+  {
+    "tarea": "Actualizar Computadoras",
+    "responsable": "Soporte Tecnico",
+    "nombre": "Natalia_Reyes",
+    "estado": "En Proceso",
+    "fecha": "10/10/2025",
+    "prioridad": "Alta "
+  },
+  {
+    "tarea": "Repartir Examenes de Mate",
+    "responsable": "Auxiliar",
+    "nombre": "Paola_Fernandez",
+    "estado": "En Proceso",
+    "fecha": "09/10/2025",
+    "prioridad": "Alta "
+  },
+  {
+    "tarea": "Exposicion",
+    "responsable": "Docentes ",
+    "nombre": "Quimica",
+    "estado": "En Proceso",
+    "fecha": "23/10/2025",
+    "prioridad": "Alta "
+  },
+  {
+    "tarea": "Subir un Tik Tok sobre descuentos de cursos",
+    "responsable": "Marketing",
+    "nombre": "Paola_Fernandez",
+    "estado": "En Proceso",
+    "fecha": "17/10/2025",
+    "prioridad": "Critica"
+  }
+]
