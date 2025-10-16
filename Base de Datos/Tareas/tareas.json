@@ -78,5 +78,13 @@
     "estado": "En Proceso",
     "fecha": "17/10/2025",
     "prioridad": "Critica"
+  },
+  {
+    "tarea": "subir 2 tiktok promocionales de descuento",
+    "responsable": "Marketing",
+    "nombre": "Andres_Silva",
+    "estado": "En Proceso",
+    "fecha": "17/10/2025",
+    "prioridad": "Alta "
   }
 ]

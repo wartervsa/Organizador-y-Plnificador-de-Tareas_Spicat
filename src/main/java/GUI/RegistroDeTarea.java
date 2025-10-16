@@ -16,7 +16,7 @@ public class RegistroDeTarea extends JFrame {
     public RegistroDeTarea() {
         
         setTitle("Registro de Tareas del Docente");
-        setSize(670, 450);
+        setSize(800, 600);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 

@@ -38,7 +38,6 @@ DAO/TareaDAO.class
 Login/PanelUsuario.class
 GUI/Calendario$2.class
 GUI/AsignacionDeTarea$2.class
-Login/MiembroFrame$3.class
 Login/SecretariaFrame$1.class
 Login/IGUL$1.class
 Funcionalidad/componentes/Tarea.class
