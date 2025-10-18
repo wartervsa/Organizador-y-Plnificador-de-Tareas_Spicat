@@ -4,7 +4,7 @@
  */
 package Login;
 
-import GUI.Calendario;
+import GUI.AsignarEnCalendario;
 import GUI.RegistroDeTarea;
 import javax.swing.JOptionPane;
 import GUI.EspacioDeTrabajo;
@@ -58,6 +58,8 @@ public class DuenoFrame extends javax.swing.JFrame implements PanelUsuario{
         jPanel5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel1.setFont(new java.awt.Font("Quicksand Medium", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setIcon(new javax.swing.ImageIcon("/home/d23ylan/Pictures/Images Projects Java Netbeans/Icon_evolveCode-115px x 52px.png")); // NOI18N
         jLabel1.setText("Evolve Code - Spicat");
 
@@ -68,7 +70,7 @@ public class DuenoFrame extends javax.swing.JFrame implements PanelUsuario{
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addGap(324, 324, 324)
                 .addComponent(jLabel1)
-                .addContainerGap(417, Short.MAX_VALUE))
+                .addContainerGap(355, Short.MAX_VALUE))
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -205,9 +207,7 @@ public class DuenoFrame extends javax.swing.JFrame implements PanelUsuario{
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
-        Calendario calendario = new Calendario();
-        calendario.cargarCalendario();
-        calendario.panelAnterior(this);
+        AsignarEnCalendario calendario = new AsignarEnCalendario(usuario);
     }//GEN-LAST:event_jButton21ActionPerformed
 
     private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed

@@ -71,6 +71,13 @@ public class Usuario {
         return resultado;
     }
     
+    public boolean puedeEditar() { 
+        if (this.rol == null) { 
+            return false; 
+        } 
+        return rol.equalsIgnoreCase("Dueño") || rol.equalsIgnoreCase("secretaria") || rol.equalsIgnoreCase("secret"); 
+    } 
+    
     public String getCorreo() {
         return correo;
     }

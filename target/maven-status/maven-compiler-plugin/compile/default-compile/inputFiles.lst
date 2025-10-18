@@ -3,7 +3,8 @@
 /home/d23ylan/NetBeansProjects/Spicat_Planificador/src/main/java/Funcionalidad/componentes/Tarea.java
 /home/d23ylan/NetBeansProjects/Spicat_Planificador/src/main/java/Funcionalidad/componentes/Usuario.java
 /home/d23ylan/NetBeansProjects/Spicat_Planificador/src/main/java/GUI/AsignacionDeTarea.java
-/home/d23ylan/NetBeansProjects/Spicat_Planificador/src/main/java/GUI/Calendario.java
+/home/d23ylan/NetBeansProjects/Spicat_Planificador/src/main/java/GUI/AsignarEnCalendario.java
+/home/d23ylan/NetBeansProjects/Spicat_Planificador/src/main/java/GUI/CalendarioGeneral.java
 /home/d23ylan/NetBeansProjects/Spicat_Planificador/src/main/java/GUI/EspacioDeTrabajo.java
 /home/d23ylan/NetBeansProjects/Spicat_Planificador/src/main/java/GUI/RegistroDeTarea.java
 /home/d23ylan/NetBeansProjects/Spicat_Planificador/src/main/java/Login/App.java

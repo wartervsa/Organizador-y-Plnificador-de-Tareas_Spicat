@@ -6,7 +6,7 @@ package Login;
 
 import GUI.EspacioDeTrabajo;
 import javax.swing.JOptionPane;
-import GUI.Calendario;
+import GUI.AsignarEnCalendario;
 import GUI.RegistroDeTarea;
 import Funcionalidad.componentes.Usuario;
 /**
@@ -195,9 +195,7 @@ public class SecretariaFrame extends javax.swing.JFrame implements PanelUsuario{
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        Calendario calendario = new Calendario();
-        calendario.cargarCalendario();
-        calendario.panelAnterior(this);
+        AsignarEnCalendario calendario = new AsignarEnCalendario(usuario);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed

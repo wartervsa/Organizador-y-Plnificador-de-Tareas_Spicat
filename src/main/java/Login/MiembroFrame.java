@@ -5,7 +5,7 @@
 package Login;
 
 import Funcionalidad.componentes.Usuario;
-import GUI.Calendario;
+import GUI.CalendarioGeneral;
 import GUI.EspacioDeTrabajo;
 import GUI.RegistroDeTarea;
 import javax.swing.JOptionPane;
@@ -16,6 +16,7 @@ import javax.swing.JOptionPane;
 public class MiembroFrame extends javax.swing.JFrame implements PanelUsuario{
     
     private final Usuario usuario;
+    private CalendarioGeneral calendario;
     
     /**
      * Creates new form MiembroFrame
@@ -24,6 +25,7 @@ public class MiembroFrame extends javax.swing.JFrame implements PanelUsuario{
         initComponents();
 
         this.usuario = usuario;
+        calendario = new CalendarioGeneral(usuario);
     }
     
     @Override
@@ -176,9 +178,9 @@ public class MiembroFrame extends javax.swing.JFrame implements PanelUsuario{
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        Calendario calendario = new Calendario();
-        calendario.cargarCalendario();
-        calendario.panelAnterior(this);
+        if (calendario.isVisible() == false) {
+            calendario.setVisible(true);
+        }
     }//GEN-LAST:event_jButton2ActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
