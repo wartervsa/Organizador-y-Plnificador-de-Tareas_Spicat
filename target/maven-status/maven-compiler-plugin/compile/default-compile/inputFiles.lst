@@ -1,11 +1,13 @@
 /home/d23ylan/NetBeansProjects/Spicat_Planificador/src/main/java/DAO/TareaDAO.java
 /home/d23ylan/NetBeansProjects/Spicat_Planificador/src/main/java/DAO/UsuarioDAO.java
+/home/d23ylan/NetBeansProjects/Spicat_Planificador/src/main/java/Funcionalidad/componentes/NotificacionFuncionalidad.java
 /home/d23ylan/NetBeansProjects/Spicat_Planificador/src/main/java/Funcionalidad/componentes/Tarea.java
 /home/d23ylan/NetBeansProjects/Spicat_Planificador/src/main/java/Funcionalidad/componentes/Usuario.java
 /home/d23ylan/NetBeansProjects/Spicat_Planificador/src/main/java/GUI/AsignacionDeTarea.java
 /home/d23ylan/NetBeansProjects/Spicat_Planificador/src/main/java/GUI/AsignarEnCalendario.java
 /home/d23ylan/NetBeansProjects/Spicat_Planificador/src/main/java/GUI/CalendarioGeneral.java
 /home/d23ylan/NetBeansProjects/Spicat_Planificador/src/main/java/GUI/EspacioDeTrabajo.java
+/home/d23ylan/NetBeansProjects/Spicat_Planificador/src/main/java/GUI/NotificacionGui.java
 /home/d23ylan/NetBeansProjects/Spicat_Planificador/src/main/java/GUI/RegistroDeTarea.java
 /home/d23ylan/NetBeansProjects/Spicat_Planificador/src/main/java/Login/App.java
 /home/d23ylan/NetBeansProjects/Spicat_Planificador/src/main/java/Login/DuenoFrame.java

@@ -74,4 +74,10 @@ public class Tarea {
         this.prioridad = prioridad;
     }
     
+    @Override
+    public String toString() {
+        String mensajeTarea = "Tarea: " + nombre + " vence el " + fecha;
+        return mensajeTarea;
+    }
+    
 }

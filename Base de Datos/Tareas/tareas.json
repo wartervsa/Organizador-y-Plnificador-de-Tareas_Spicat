@@ -40,6 +40,14 @@
     "prioridad": "Alta "
   },
   {
+    "tarea": "Demostracion de papeles",
+    "responsable": "Secretaria",
+    "nombre": "Josefina_Mamani",
+    "estado": "En Proceso",
+    "fecha": "21/10/2025",
+    "prioridad": "Alta "
+  },
+  {
     "tarea": "Programar un Examen Sorpresa",
     "responsable": "Coordinador Academico",
     "nombre": "Marcelo_lopez",

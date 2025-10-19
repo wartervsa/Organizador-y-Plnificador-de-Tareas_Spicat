@@ -9,6 +9,12 @@ import GUI.RegistroDeTarea;
 import javax.swing.JOptionPane;
 import GUI.EspacioDeTrabajo;
 import Funcionalidad.componentes.Usuario;
+import javax.swing.SwingUtilities;
+import Funcionalidad.componentes.*;
+import GUI.NotificacionGui;
+import java.util.*;
+import javax.swing.DefaultListModel;
+
 /**
  *
  * @author d23ylan
@@ -44,6 +50,7 @@ public class DuenoFrame extends javax.swing.JFrame implements PanelUsuario{
         jPanel1 = new javax.swing.JPanel();
         jPanel5 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
+        jButton4 = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
         jButton23 = new javax.swing.JButton();
         jButton22 = new javax.swing.JButton();
@@ -63,18 +70,34 @@ public class DuenoFrame extends javax.swing.JFrame implements PanelUsuario{
         jLabel1.setIcon(new javax.swing.ImageIcon("/home/d23ylan/Pictures/Images Projects Java Netbeans/Icon_evolveCode-115px x 52px.png")); // NOI18N
         jLabel1.setText("Evolve Code - Spicat");
 
+        jButton4.setBackground(new java.awt.Color(204, 204, 255));
+        jButton4.setFont(new java.awt.Font("Quicksand Medium", 1, 18)); // NOI18N
+        jButton4.setForeground(new java.awt.Color(0, 0, 0));
+        jButton4.setIcon(new javax.swing.ImageIcon("/home/d23ylan/NetBeansProjects/Spicat_Planificador/src/main/java/Images Projects Java Netbeans/Icon_notificaciones-32px.png")); // NOI18N
+        jButton4.setText("Notificaciones");
+        jButton4.setBorder(null);
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
-                .addGap(324, 324, 324)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel1)
-                .addContainerGap(355, Short.MAX_VALUE))
+                .addGap(181, 181, 181)
+                .addComponent(jButton4)
+                .addGap(60, 60, 60))
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, Short.MAX_VALUE)
+            .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, Short.MAX_VALUE)
+                .addComponent(jButton4))
         );
 
         jPanel2.setBackground(new java.awt.Color(204, 204, 255));
@@ -179,7 +202,7 @@ public class DuenoFrame extends javax.swing.JFrame implements PanelUsuario{
                     .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                        .addGap(0, 16, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
@@ -227,11 +250,26 @@ public class DuenoFrame extends javax.swing.JFrame implements PanelUsuario{
         espacios.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        NotificacionGui noti = new NotificacionGui(usuario);
+        
+        if(noti.isVisible() == false) {
+            noti.setVisible(true);
+        }
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    public static void main(String[] args) {
+        Usuario usuario = new Usuario("JosePerez@gmail.Dueño", "12345");
+        SwingUtilities.invokeLater(() -> new DuenoFrame(usuario).setVisible(true));
+    }
+    
+    
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton21;
     private javax.swing.JButton jButton22;
     private javax.swing.JButton jButton23;
+    private javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;

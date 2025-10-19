@@ -9,6 +9,8 @@ import javax.swing.JOptionPane;
 import GUI.AsignarEnCalendario;
 import GUI.RegistroDeTarea;
 import Funcionalidad.componentes.Usuario;
+import GUI.NotificacionGui;
+import javax.swing.SwingUtilities;
 /**
  *
  * @author PepetoPonk
@@ -48,6 +50,7 @@ public class SecretariaFrame extends javax.swing.JFrame implements PanelUsuario{
         jButton1 = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
+        jButton4 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -135,18 +138,34 @@ public class SecretariaFrame extends javax.swing.JFrame implements PanelUsuario{
         jLabel1.setText("EvolveCode - Spicat");
         jLabel1.setToolTipText("");
 
+        jButton4.setBackground(new java.awt.Color(204, 204, 255));
+        jButton4.setFont(new java.awt.Font("Quicksand Medium", 1, 18)); // NOI18N
+        jButton4.setForeground(new java.awt.Color(0, 0, 0));
+        jButton4.setIcon(new javax.swing.ImageIcon("/home/d23ylan/NetBeansProjects/Spicat_Planificador/src/main/java/Images Projects Java Netbeans/Icon_notificaciones-32px.png")); // NOI18N
+        jButton4.setText("Notificaciones");
+        jButton4.setBorder(null);
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGap(313, 313, 313)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel1)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(147, 147, 147)
+                .addComponent(jButton4)
+                .addGap(47, 47, 47))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addComponent(jLabel1)
+                .addComponent(jButton4))
         );
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -203,10 +222,24 @@ public class SecretariaFrame extends javax.swing.JFrame implements PanelUsuario{
         espacios.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        NotificacionGui noti = new NotificacionGui(usuario);
+        
+        if(noti.isVisible() == false) {
+            noti.setVisible(true);
+        }
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    public static void main(String[] args) {
+        Usuario usuario = new Usuario("Secretaria_Josefina_Mamani@gmail.secret", "4321");
+        SwingUtilities.invokeLater(() -> new SecretariaFrame(usuario).setVisible(true));
+    }
+    
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
